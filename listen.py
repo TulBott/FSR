@@ -57,7 +57,7 @@ def move_robot():
                 else: pibot.value = (-left_speed, -right_speed)
                 # print('Value', left_encoder.value, right_encoder.value)
                 # print('Speed', left_speed, right_speed)
-        time.sleep(0.005)
+        time.sleep(0.002)
     
 # TODO: New route to read encoder values (M4)
 @app.route('/encoder', methods=['GET'])
